@@ -10,7 +10,7 @@ This repo will list down ideas, concepts and code snippets of different programm
 
 * [Compiling](#compiling)
 * [DevOps](#devops)
-* [Continuos Integration](#ci)
+* [Continuous Integration](#ci)
 * [Elasticsearch](#elasticsearch)
 * [Frameworks](#frameworks)
 * [Git](#git)
@@ -34,7 +34,7 @@ This repo will list down ideas, concepts and code snippets of different programm
 
 ---
 
-### Continuos Integration
+### CI (Continuous Integration)
 
 ---
 
@@ -86,7 +86,7 @@ This repo will list down ideas, concepts and code snippets of different programm
 
 ---
 
-### Test Driven Development
+### TDD (Test Driven Development)
 
 ---
 
