@@ -8,6 +8,7 @@ This repo will list down ideas, concepts and code snippets of different programm
 
 ### Categories A-Z
 
+* [Compiling](#compiling)
 * [DevOps](#devops)
 * [Elasticsearch](#elasticsearch)
 * [Git](#git)
@@ -21,6 +22,12 @@ This repo will list down ideas, concepts and code snippets of different programm
 * [Unix](#unix)
 * [Vagrant](#vagrant)
 * [Vim](#vim)
+
+---
+
+### Compiling
+
+* [Sass](compiling/sass.md)
 
 ---
 
