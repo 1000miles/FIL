@@ -127,6 +127,6 @@ Here are the informations in the 'base.css.map' file if use scss syntax and call
 "names": [],
 "file": "base.css"
 }
-``
+```
 
 That's it. That's all you need to know for now to compile a stylesheet with sass. Happy try out! :)
