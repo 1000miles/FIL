@@ -1,4 +1,4 @@
-# Show specific number of lines of a file
+# Show specific numbers of lines of a file
 
 Sometimes we have a file with thousands of lines of code and feel a bit overwhelmed.
 
