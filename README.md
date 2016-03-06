@@ -84,6 +84,8 @@ This repo will list down ideas, concepts and code snippets of different programm
 
 ### Vagrant
 
+* [Setup Vagrant](vagrant/set-up-vagrant.md)
+
 ---
 
 ### Vim
