@@ -6,11 +6,11 @@ If you are using Ruby and want to compile sass or scss files into css stylesheet
 
 Mac:
 ```
-gem install sass
+$ gem install sass
 ```
 Linux:
 ```
-sudo su -c 'gem install sass'
+$ sudo su -c 'gem install sass'
 ```
 
 After you have installed the gem you are ready to start. :)
@@ -18,33 +18,33 @@ After you have installed the gem you are ready to start. :)
 ##### 2. Create a folder for your new project which is at the same time your root directory, e.g.:
 
 ```
-mkdir my_project
+$ mkdir my_project
 ```
 
 ##### 3. Go into the new project directory with:
 
 ```
-cd my_project
+$ cd my_project
 ```
 
 ##### 4. In your root directory create 2 directories at the same time and call them 'sass' and 'stylesheets' with:
 
-`mkdir sass stylesheets`
+`$ mkdir sass stylesheets`
 
 ##### 5. Sass comes a long with a handy watch method to keep track of all changes in a directory or a single file:
 
 ```
-sass --watch input.sass:output.css
-sass --watch input-dir:output-dir
+$ sass --watch input.sass:output.css
+$ sass --watch input-dir:output-dir
 ```
 
 For a single file, run this command in your command line tool (CLI):
 ```
-sass --watch sass/base.sass:stylesheets/base.css
+$ sass --watch sass/base.sass:stylesheets/base.css
 ```
 For directories, run this command in your command line tool (CLI):
 ```
-sass --watch sass:stylesheets
+$ sass --watch sass:stylesheets
 ```
 The output in your cli would be like this:
 
@@ -60,7 +60,7 @@ sass sass>>> Change detected to: sass/base.sass
 ##### 6. Create a file in the sass directory called 'base.sass' with:
 
 ```
-touch sass/base.sass
+$ touch sass/base.sass
 ```
 
 ##### 7. Add following code into the 'base.sass' file
@@ -92,7 +92,7 @@ Explanation: The elements `$font-default`and `$default-color` are called `variab
 ##### Compile the 'base.sass' file of the 'sass' directory into a new css-file in the 'stylesheets' directory with:
 
 ```
-sass sass/base.sass stylesheets/base.css
+$ sass sass/base.sass stylesheets/base.css
 ```
 
 Explanation: After you have compiled the base.sass file you should see this code in the file `base.css` of the stylesheets folder:
