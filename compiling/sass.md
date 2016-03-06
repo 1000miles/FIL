@@ -93,5 +93,15 @@ body {
 
 You may have recognized that there is a another new file automatically added to the stylesheets folder called `base.css.map`? This file is very helpful to keep track of the original files as your project grows and becomes more complex.
 
+Here are the informations in the 'base.css.map' file:
+```
+{
+"version": 3,
+"mappings": "AAGA,IAAI;EACF,IAAI,EAAE,0BAAgB;EACtB,KAAK,EAJS,IAAI",
+"sources": ["../sass/base.sass"],
+"names": [],
+"file": "base.css"
+}
+```
 
-That's it. That's all you need to know for now to compile a stylesheet with sass. :)
+That's it. That's all you need to know for now to compile a stylesheet with sass. Happy try out! :)
