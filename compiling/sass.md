@@ -63,7 +63,9 @@ sass sass>>> Change detected to: sass/base.sass
 touch sass/base.sass
 ```
 
-##### 7. Add following code into the 'base.sass' file.
+##### 7. Add following code into the 'base.sass' file
+
+with sass-syntax:
 
 ```
 $font-default: Arial, sans-serif
@@ -73,6 +75,18 @@ body
   font: 100% $font-default
   color: $default-color
 ```
+
+with scss-syntax:
+```
+$font-default: Arial, sans-serif;
+$default-color: #222;
+
+body {
+  font: 100% $font-default;
+  color: $default-color
+}
+```
+
 Explanation: The elements `$font-default`and `$default-color` are called `variables` and can be named as you like, they are not reserved terms. It is recommended to call the variables precisely and understandable, so they can be easy to remember.
 
 ##### Compile the 'base.sass' file of the 'sass' directory into a new css-file in the 'stylesheets' directory with:
@@ -93,7 +107,7 @@ body {
 
 You may have recognized that there is a another new file automatically added to the stylesheets folder called `base.css.map`? This file is very helpful to keep track of the original files as your project grows and becomes more complex.
 
-Here are the informations in the 'base.css.map' file:
+Here are the informations in the 'base.css.map' file if you compile using base.sass:
 ```
 {
 "version": 3,
@@ -103,5 +117,16 @@ Here are the informations in the 'base.css.map' file:
 "file": "base.css"
 }
 ```
+
+Here are the informations in the 'base.css.map' file if use scss syntax and call it 'base.scss' file:
+```
+{
+"version": 3,
+"mappings": "AAGA,IAAK;EACH,IAAI,EAAE,0BAAgB;EACtB,KAAK,EAJS,IAAI",
+"sources": ["../sass/base.scss"],
+"names": [],
+"file": "base.css"
+}
+``
 
 That's it. That's all you need to know for now to compile a stylesheet with sass. Happy try out! :)
