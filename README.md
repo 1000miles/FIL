@@ -77,6 +77,8 @@ This repo will list down ideas, concepts and code snippets of different programm
 
 ### Unix
 
+* [Create a File in a non-existing Directory](unix/create-a-file-in-a-non-existing-directory.md)
+
 ---
 
 ### Vagrant
