@@ -10,7 +10,9 @@ This repo will list down ideas, concepts and code snippets of different programm
 
 * [Compiling](#compiling)
 * [DevOps](#devops)
+* [Continuos Integration](#ci)
 * [Elasticsearch](#elasticsearch)
+* [Frameworks](#frameworks)
 * [Git](#git)
 * [JavaScript](#javascript)
 * [Linux](#linux)
@@ -19,6 +21,7 @@ This repo will list down ideas, concepts and code snippets of different programm
 * [PostgreSQL](#postgresql)
 * [Rails](#rails)
 * [Ruby](#ruby)
+* [Test Driven Development](#tdd)
 * [Unix](#unix)
 * [Vagrant](#vagrant)
 * [Vim](#vim)
@@ -31,11 +34,19 @@ This repo will list down ideas, concepts and code snippets of different programm
 
 ---
 
+### Continuos Integration
+
+---
+
 ### DevOps
 
 ---
 
 ### Elasticsearch
+
+---
+
+### Frameworks
 
 ---
 
@@ -72,6 +83,10 @@ This repo will list down ideas, concepts and code snippets of different programm
 ---
 
 ### Ruby
+
+---
+
+### Test Driven Development
 
 ---
 
