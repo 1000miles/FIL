@@ -18,7 +18,6 @@ This repo will list down ideas, concepts and code snippets of different programm
 * [Linux](#linux)
 * [Mac](#mac)
 * [Node](#node)
-* [PostgreSQL](#postgresql)
 * [Rails](#rails)
 * [Ruby](#ruby)
 * [Test Driven Development](#tdd)
@@ -39,6 +38,8 @@ This repo will list down ideas, concepts and code snippets of different programm
 ---
 
 ### DevOps
+
+* [MySQL](devops/mysql/)
 
 ---
 
@@ -66,15 +67,7 @@ This repo will list down ideas, concepts and code snippets of different programm
 
 ---
 
-### MySQL
-
----
-
 ### Node
-
----
-
-### PostgreSQL
 
 ---
 
