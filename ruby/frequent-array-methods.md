@@ -1,7 +1,9 @@
 # Ruby
-## Array Methods
+## Cheatsheet – frequent Array Methods to look up
 
-.count, .size, .length
+### (A-Z)
+
+**.count, .size, .length**
 ```
 [4, 8, 15, 16, 23, 42].count
 => 6
@@ -16,7 +18,7 @@
 # count the number of elements in the array & return
 ```
 
-.compact
+**.compact**
 ```
 [1, 2, nil, 3, nil, 4, 5].compact
 => [1, 2, 3, 4, 5]
@@ -27,7 +29,7 @@
 # return the array without nil on the first level
 ```
 
-.flatten
+**.flatten**
 ```
 [ 1, 2, [3, [4, 5] ] ].flatten
 => [1, 2, 3, 4, 5]
@@ -36,14 +38,14 @@
 => [1, 2, 3, [4, 5]]
 ```
 
-.index
+**.index**
 ```
 [4, 8, 15, 16, 23, 42].index(8)
 => 1
 # return the index of the element from the array with the number 8
 ```
 
-.join
+**.join**
 ```
 [4, 8, 15, 16, 23, 42].join(", ")
 => "4, 8, 15, 16, 23, 42"
@@ -51,7 +53,7 @@
 # remove the separator for the last element of the array & return
 ```
 
-.pack
+**.pack**
 ```
 array = [8, 15, 16, 23, 42]
 => [8, 15, 16, 23, 42]
@@ -71,7 +73,7 @@ p [177, 8978].pack("UU")
 Learn more about pack [directives](http://ruby-doc.org/core-1.9.3/Array.html#method-i-pack).
 ```
 
-.pop
+**.pop**
 ```
 array = [8, 15, 16, 23, 42]
 => [8, 15, 16, 23, 42]
@@ -97,7 +99,7 @@ p array
 # prints out the array without numbers 16 & 23
 ```
 
-.push
+**.push**
 ```
 array = [8, 15, 16, 23, 42]
 => [8, 15, 16, 23, 42]
@@ -114,7 +116,7 @@ array.push(33,78,25)
 
 ```
 
-.slice
+**.slice**
 ```
 [4, 8, 15, 16, 23, 42].slice(2)
 => 15
@@ -128,7 +130,7 @@ array.slice(-2..-1).join("|")
 # slice last 2 elements of the array and pass in a separator ("|") & return
 ```
 
-.shift
+**.shift**
 ```
 array = [4, 8, 15, 16, 23, 42]
 => [4, 8, 15, 16, 23, 42]
@@ -155,7 +157,7 @@ p array
 # prints out array without number 8 & 15
 ```
 
-.unshift
+**.unshift**
 ```
 array = [16, 23, 42]
 => [16, 23, 42]
@@ -187,7 +189,7 @@ array.unshift(77,88)
 # change the previous index order => 0 become 1, 1 becomes 2, etc.
 ```
 
-.zip
+**.zip**
 ```
 [4, 8, 15, 16, 23, 42].zip
 => [[4], [8], [15], [16], [23], [42]]
