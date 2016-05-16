@@ -76,7 +76,9 @@ This repo will list down ideas, concepts and code snippets of different programm
 ---
 
 ### Ruby
-* [Frequent Array Methods](ruby/frequent-array-methods.md/)
+
+* [Cheat Sheet - Frequent Array Methods](ruby/frequent-array-methods.md/)
+
 ---
 
 ### TDD (Test Driven Development)
