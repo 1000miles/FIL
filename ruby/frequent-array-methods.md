@@ -1,5 +1,5 @@
 # Ruby
-## Cheatsheet – frequent Array Methods to look up
+## Cheat Sheet – frequent Array Methods to look up
 
 ### (A-Z)
 
