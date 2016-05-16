@@ -52,7 +52,9 @@ This repo will list down ideas, concepts and code snippets of different programm
 ---
 
 ### Git
+
 * [Git Cheat Sheet](git/git-cheatsheet.md/)
+
 ---
 
 ### JavaScript
