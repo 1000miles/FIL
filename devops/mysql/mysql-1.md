@@ -2,10 +2,10 @@
 
 In the first part you will learn the basics of sql commands: SHOW, USE, SELECT, LIMIT & ORDER BY. For a better readability by convention the commands are used in all capitals even though they would also work in lower case. You need to use `;` at the end of each code block to let MySQL know that it has ended. A sql code block can contain one or multiple statements. Each command you execute to return a value is a statement.
 
-**To log into the mysql server (where no credentials are required, e.g. development environment) do:**
+**1. To log into the mysql server (where no credentials are required, e.g. development environment) do:**
 `mysql -u root;`
 
-**To show all databases do:**
+**2. To show all databases do:**
 `SHOW databases;`
 
 Output:
@@ -27,6 +27,7 @@ Output:
 `USE project_development;`
 
 **To display all tables do:**
+
 `SHOW tables;`
 
 Output:

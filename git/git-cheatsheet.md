@@ -10,7 +10,7 @@ $ git init project_folder
 
 **2. Add remote (origin) with branch (master) to git repository and set upstream parameter**
 ```
-$ git add remote -u origin master
+$ git add remote origin master
 ```
 
 ### Frequent git workflow
@@ -20,7 +20,7 @@ $ git add remote -u origin master
 # of current directory to git
 $ git add .
 
-# of all changed files to git
+# of all changed & tracked files to git
 $ git add -A
 ```
 
@@ -31,10 +31,16 @@ $ git commit -m 'This is an example text'
 
 # via Vim or another Texteditor (to benefit from using longer messages)
 $ git commit
+
+# short version (add & commit with a message at the same time)
+$ git commit -am 'This is a commit message'
 ```
 
 **5.a) Push the changes of a branch to your repository (e.g. origin)**
 ```
+# with specifying remote, branch & parameter upstream (only at initial commit)
+$ git push -u origin master
+
 # with specifying remote and branch
 $ git push origin master
 
