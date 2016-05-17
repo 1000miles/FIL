@@ -53,6 +53,7 @@ This repo will list down ideas, concepts and code snippets of different programm
 
 ### Git
 
+* [Install & Configure Git](git/install-and-configure-git.md)
 * [Git Cheat Sheet](git/git-cheatsheet.md/)
 
 ---
