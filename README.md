@@ -91,6 +91,7 @@ This repo will list down ideas, concepts and code snippets of different programm
 
 * [Create a File in a non-existing Directory](unix/create-a-file-in-a-non-existing-directory.md)
 * [Show specific numbers of lines of a file](unix/show-specific-number-of-lines-of-a-file.md)
+* [Unix Cheat Sheet](unix/unix-cheatsheet.md)
 
 ---
 
