@@ -20,18 +20,3 @@ $ cp filename1.rb filename2.rb
 $ cp this\_directory/filename1.rb other\_directory/filename1.rb
 
 ```
-
-## cURL a file
-
-**1. To copy the values of a file from an external resource - let's say a Vagrantfile from a gist on Github - into our current directory of our local computer, we just do:**
-
-```
-curl -XGET https://gist.githubusercontent.com/user/path/Vagrantfile \> Vagrantfile
-
-```
-As soon as the values of the Vagrantfile from Github has been copied and pushed into our newly created Vagrantfile we are ready to start our virtual machine right away:
-
-```
-vagrant up && vagant ssh
-
-```
