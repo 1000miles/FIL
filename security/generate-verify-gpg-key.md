@@ -1,4 +1,4 @@
-# Generate GPG key
+# Generate & verify a GPG key
 
 **1. First, download the GPG installer for your terminal**
 https://www.gnupg.org/download/
