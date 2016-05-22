@@ -1,6 +1,6 @@
 # FIL - FINALLY I LEARNED
 
-Inspired by the project [TIL](https://github.com/jbranchaud/til) I want to follow the same concept and write down all the small little things I learn as a Junior Developer privately and at work. But because I am not sure, if I am able to write something daily, I have named my project 'FIL' = FINALLY I LEARNED. :)
+Inspired by the project [TIL](https://github.com/jbranchaud/til) I want to follow the same concept and write down all the small little things I learn as a Junior Developer privately and at work. I call my project 'FIL' (FINALLY I LEARNED) because I will not write on a daily but occasionally basis.
 
 This repo will list down ideas, concepts and code snippets of different programming languages and technologies.
 
