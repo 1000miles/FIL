@@ -86,6 +86,12 @@ This repo will list down ideas, concepts and code snippets of different programm
 
 ---
 
+### Security
+
+* [Generate and verify GPG key](security/generate-verify-gpg-key.md/)
+
+---
+
 ### TDD (Test Driven Development)
 
 ---
