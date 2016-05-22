@@ -60,6 +60,8 @@ This repo will list down ideas, concepts and code snippets of different programm
 
 ### JavaScript
 
+* [jQuery Cheat Sheet](javascript/jquery-cheatsheet.md)
+
 ---
 
 ### Linux
