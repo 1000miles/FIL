@@ -119,12 +119,12 @@ Output:
 You need a Passphrase to protect your secret key.
 ```
 
-![passphrase.png](https://github.com/1000miles/FIL/raw/master/security/passphrase.png)
-
 **11. Now a separate GPG window will open and ask you to type in your passphrase twice. Attention: Save your passphrase BEFORE your confirm it in case something goes wrong.**
 
 
-Output:
+![passphrase.png](https://github.com/1000miles/FIL/raw/master/security/passphrase.png)
+
+After you have verified your passphrase, your output will be:
 ```
 We need to generate a lot of random bytes. It is a good idea to perform
 some other action (type on the keyboard, move the mouse, utilize the
