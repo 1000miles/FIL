@@ -1,4 +1,10 @@
-# Setup Vagrant
+# Vagrant
+
+## Why Vagrant?
+
+Using vagrant for your projects offers you the benefit to set up multiple virtual machines (VM) with different environments that can be isolated from each other to avoid conflicts between operating systems (e.g. Mac, Linux, Ubuntu, Fedora, etc.) and software packages. The other benefit is that you can destroy one VM to startup an exact copy of the destroyed VM in minutes (based on the performance of your network connection and computer).
+
+## Setup Vagrant
 
 First, you need to download the vagrant package for your computer operating system from this website:
 [Vagrantup.com](https://www.vagrantup.com/downloads.html)
@@ -40,7 +46,7 @@ and change it to:
 
 b) Provider
 
-```
+```bash
 # config.vm.provider "virtualbox" do |vb|
 #   # Display the VirtualBox GUI when booting the machine
 #   vb.gui = true
@@ -51,7 +57,7 @@ b) Provider
 ```
  and change it for example to:
 
- ```
+ ```bash
  config.vm.provider "virtualbox" do |vb|
   vb.memory = "2048"
   vb.cpus = "2"
@@ -59,12 +65,12 @@ b) Provider
 ```
 
 To start the machine, finally run:
-```
+```bash
 $  vagrant up
 ```
 
 You can run following to use the default ssh provided by vagrant:
-```
+```bash
 vagrant ssh
 ```
 
