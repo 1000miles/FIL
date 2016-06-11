@@ -26,76 +26,61 @@ This repo will list down ideas, concepts and code snippets of different programm
 * [Vagrant](#vagrant)
 * [Vim](#vim)
 
----
 
 ### Compiling
 
 * [Sass](compiling/sass.md)
 
----
 
 ### CI (Continuous Integration)
 
----
 
 ### DevOps
 
 * [MySQL](devops/mysql/)
 
----
 
 ### Elasticsearch
 
----
 
 ### Frameworks
 
----
 
 ### Git
 
 * [Install & Configure Git](git/install-and-configure-git.md)
 * [Git Cheat Sheet](git/git-cheatsheet.md/)
 
----
 
 ### JavaScript
 
 * [jQuery Cheat Sheet](javascript/jquery-cheatsheet.md)
 
----
 
 ### Linux
 
----
 
 ### Mac
 
----
 
 ### Node
 
----
 
 ### Rails
 
----
 
 ### Ruby
 
 * [Cheat Sheet - Frequent Array Methods](ruby/frequent-array-methods.md/)
 
----
 
 ### Security
 
 * [Generate and verify GPG key](security/generate-verify-gpg-key.md/)
 
----
 
 ### TDD (Test Driven Development)
 
----
 
 ### Unix
 
@@ -104,13 +89,10 @@ This repo will list down ideas, concepts and code snippets of different programm
 * [Unix Cheat Sheet](unix/unix-cheatsheet.md)
 * [cURL Cheat Sheet](unix/curl-cheatsheet.md)
 
----
 
 ### Vagrant
 
 * [Setup Vagrant](vagrant/set-up-vagrant.md)
 * [Vagrant Cheat Sheet](vagrant/vagrant-cheatsheet.md)
-
----
 
 ### Vim
