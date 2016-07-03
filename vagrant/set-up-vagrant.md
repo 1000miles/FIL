@@ -1,47 +1,84 @@
-# Vagrant
+# Vagrant (Part 1)
 
 ## Why Vagrant?
 
-Using vagrant for your projects offers you the benefit to set up multiple virtual machines (VM) with different environments that can be isolated from each other to avoid conflicts between operating systems (e.g. Mac, Linux, Ubuntu, Fedora, etc.) and software packages. The other benefit is that you can destroy one VM to startup an exact copy of the destroyed VM in minutes (based on the performance of your network connection and computer).
+Vagrant is an open source software that automates processes, for example it installs software packages (dependent on your config files) while booting the project. Using vagrant for your projects offers you the benefit to set up multiple virtual machines (VM) with different environments that can be isolated from each other to avoid conflicts between operating systems (e.g. Mac, Linux, Ubuntu, Fedora, etc.) and software packages. The other benefit is that you can destroy one VM to startup an exact copy of the destroyed VM in minutes (based on the performance of your network connection and computer) in case you have screwed up your project and have syncing folders enabled.
 
 ## Setup Vagrant
 
 First, you need to download the vagrant package for your computer operating system from this website:
-[Vagrantup.com](https://www.vagrantup.com/downloads.html)
+[Vagrantup.com](https://www.vagrantup.com/downloads.html). Then follow the instructions and install the software. After the successful installation it will add vagrant automatically to your system path, so that it is available from your command line interface (CLI).
 
-Then follow the instructions and install the software. After the successful installation it will add vagrant automatically to your system path, so that it is available from your command line interface (CLI).
-
-You also need to install a virtual machine as a provider, e.g. virtual box or VM Fusion software in order to use vagrant. Get virtualbox for free from this page:
+You also need to install a virtual machine (engine) as a provider, e.g. virtual box or VM Fusion software in order to use vagrant. Get virtualbox for free from this page:
 [Virtualbox.org](https://www.virtualbox.org/wiki/Downloads)
 
-
-Then go to this page to find the vagrant boxes suitable to your needs:
+Then go to this page to find the vagrant boxes (ready to go packages) suitable to your needs:
 [Atlas/Hashicorp](https://atlas.hashicorp.com/boxes/search)
 
-After that create your first vagrant project:
+Now it is up to decide where you want your `project root` and your `vagrant project root` located. 
+
+You have two options:
+
+a) Your project root is located in the vagrant project root:
 ```
-$ mkdir my_vagrant_project
-$ cd my_vagrant_project
+.
+├── vagrant project root
+    ├── project root
+```
+
+b) Your project root is located outside of the vagrant project root:
+```
+.
+├── vagrant project root
+└── project root
+```
+My personal favor is to have the `vagrant project root` on the same level as the `project root` to keep a better overview.
+
+#### Given, you use the second option, create your first vagrant project outside of the project root:
+```
+$ mkdir vagrant
+$ cd vagrant
 $ vagrant init
 ```
+
 It will then create a `Vagrantfile` in your new vagrant project directory.
 
-Let's say you have chosen the vagrant box `hashicorp/precise64` for `Ubuntu 12.04 LTS` from the atlas.hashicorp.com website. Now add the vagrant box to your vagrant directory with:
+Your structure now should look like this:
 
 ```
-$ vagrant box add hashicorp/precise64
+.
+├── vagrant
+	├── Vagrantfile
+└── your_project (project root)
 ```
 
-Now in the `Vagrantfile` you need to find the lines
+Now, let's say you have chosen the vagrant box `ubuntu/trusty64` for `Ubuntu 14.04 LTS` from the atlas.hashicorp.com website. 
+
+#### Then add the vagrant box to your vagrant directory with:
+
+```
+$ vagrant box add ubuntu/trusty64
+```
+
+#### Open the Vagrantfile with:
+```
+$ vim Vagrantfile
+```
+or:
+```
+$ nano Vagrantfile
+```
+
+#### Now in the `Vagrantfile` you need to find the lines:
 
 a) Box
 
 ```
 config.vm.box = "base"
 ```
-and change it to:
+#### and change it to:
 ```
-  config.vm.box = "hashicorp/precise64"
+  config.vm.box = "ubuntu/trusty64"
 ```
 
 b) Provider
@@ -55,7 +92,7 @@ b) Provider
 #   vb.memory = "1024"
 # end
 ```
- and change it for example to:
+#### and change it for example to:
 
  ```bash
  config.vm.provider "virtualbox" do |vb|
@@ -64,14 +101,22 @@ b) Provider
  end
 ```
 
-To start the machine, finally run:
+#### To start the machine, finally run:
 ```bash
 $  vagrant up
 ```
 
-You can run following to use the default ssh provided by vagrant:
+The first time you use `$ vagrant up` it will initialize the vagrant project for you.
+
+#### You can run following to use the default ssh provided by vagrant:
 ```bash
 vagrant ssh
 ```
 
-That's it. In the next session I will show you how to setup a file that automatically installs or updates software packages you might need for your projects. :)
+#### Notes: 
+
+- In case it is required, the basic `username` = `vagrant` and `password` = `vagrant`.
+- Basically your vagrant is now ready for `$ vagrant up` but at the current state it doesn't do a lot except starting and stopping the virtual machine. This is why we need to do some further configurations to match a project's needs. 
+- Before you edit your `Vagrantfile` learn how to use a text editor from the command line like [vim](http://www.openvim.com), nano, etc.
+
+In the next chapter we will learn how to add more configs to the `Vagrantfile`.
