@@ -15,14 +15,42 @@ You also need to install a virtual machine (engine) as a provider, e.g. virtual 
 Then go to this page to find the vagrant boxes (ready to go packages) suitable to your needs:
 [Atlas/Hashicorp](https://atlas.hashicorp.com/boxes/search)
 
-#### After that create your first vagrant project:
+Now it is up to decide where you want your `project root` and your `vagrant project root` located. 
+
+You have two options:
+
+a) Your project root is located in the vagrant project root:
 ```
-$ mkdir my_vagrant_project
-$ cd my_vagrant_project
+.
+├── vagrant project root
+    ├── project root
+```
+
+b) Your project root is located outside of the vagrant project root:
+```
+.
+├── vagrant project root
+└── project root
+```
+My personal favor is to have the `vagrant project root` on the same level as the `project root` to keep a better overview.
+
+#### Given, you use the second option, create your first vagrant project outside of the project root:
+```
+$ mkdir vagrant
+$ cd vagrant
 $ vagrant init
 ```
 
 It will then create a `Vagrantfile` in your new vagrant project directory.
+
+Your structure now should look like this:
+
+```
+.
+├── vagrant
+	├── Vagrantfile
+└── your_project (project root)
+```
 
 Now, let's say you have chosen the vagrant box `ubuntu/trusty64` for `Ubuntu 14.04 LTS` from the atlas.hashicorp.com website. 
 
@@ -77,6 +105,8 @@ b) Provider
 ```bash
 $  vagrant up
 ```
+
+The first time you use `$ vagrant up` it will initialize the vagrant project for you.
 
 #### You can run following to use the default ssh provided by vagrant:
 ```bash

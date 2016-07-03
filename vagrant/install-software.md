@@ -4,11 +4,23 @@
 
 After following the tutorial how to set up vagrant [here](#vagrant/set-up-vagrant.md) in this chapter you will learn how to set up another file that will install all the software dependencies suited to your current project.
 
-Before we start, make sure to be in your root project.
+Before we start, please make to be in the `vagrant project root`. Go back to [part 1](#vagrant/set-up-vagrant.md) in case you need to read more about it.
 
+Your structure should look like this:
+```
+vagrant
+├── Vagrantfile
+```
 #### Create a script file that will contain all installation dependencies, e.g.:
 ```
 $ touch bootstrap.sh
+```
+
+Your structure should look like this:
+```
+vagrant
+├── Vagrantfile
+├── bootstrap.sh
 ```
 
 #### Open the `bootstrap.sh` with the editor of your choice, for example:
