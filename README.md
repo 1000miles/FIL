@@ -95,5 +95,6 @@ This repo will list down ideas, concepts and code snippets of different programm
 * [Setup Vagrant](vagrant/set-up-vagrant.md)
 * [Vagrant Cheat Sheet](vagrant/vagrant-cheatsheet.md)
 * [Install Software](vagrant/install-software.md)
+* [Config Vagrantfile](vagrant/config-vagrantfile.md)
 
 ### Vim
