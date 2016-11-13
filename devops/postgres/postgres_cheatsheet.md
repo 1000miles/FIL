@@ -19,7 +19,7 @@ $ createuser -Pdr pguser
 #### Create a new user (pguser) as user postgres
 
 ```bash
-$ sudo -u pguser createuser -s other_user
+$ sudo -u postgres createuser -s pguser
 ```
 
 #### Create new user via `psql` interface after login
