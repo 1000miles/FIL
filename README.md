@@ -46,6 +46,9 @@ This repo will list down ideas, concepts and code snippets of different programm
 
 ### Frameworks
 
+* [Middleman](frameworks/middleman)
+  * [Deploy to gh-pages](frameworks/middleman/deploy-to-gh-pages.md)
+
 
 ### Git
 
