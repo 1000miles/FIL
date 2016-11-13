@@ -38,6 +38,7 @@ This repo will list down ideas, concepts and code snippets of different programm
 ### DevOps
 
 * [MySQL](devops/mysql/)
+* [PostGres Cheat Sheet](devops/postgres/postgres_cheatsheet.md)
 
 
 ### Elasticsearch
