@@ -39,7 +39,7 @@ This repo will list down ideas, concepts and code snippets of different programm
 
 * [Docker](devops/docker)
 * [MySQL](devops/mysql/)
-* [PostGres Cheat Sheet](devops/postgres/postgres_cheatsheet.md)
+* [Postgres Cheat Sheet](devops/postgres/)
 
 
 ### Elasticsearch

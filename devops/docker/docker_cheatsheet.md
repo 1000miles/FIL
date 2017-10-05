@@ -1,6 +1,7 @@
 # Docker Cheat Sheet
 
 Docker registry: https://hub.docker.com/explore/
+
 This cheat sheet is built on: https://docker-curriculum.com/
 
 ```bash
@@ -76,9 +77,10 @@ $ docker run -p 8888:80 user/image_name
 $ docker stop <container_id>
 ```
 
-Dockerfile (example):
-
 ```bash
+
+# Dockerfile (example):
+
 # Instructions copied from - https://hub.docker.com/_/python/
 FROM python:3-onbuild
 
@@ -90,7 +92,7 @@ CMD ["python", "./app.py"]
 ```
 
 ```bash
-# Build an image using a repo from the registry (e.g. 28374749/dockertest). Make sure a Dockerfile exists in the same directory)
+# Build an image using a repo from the registry (e.g. 28374749/dockertest). Make sure a Dockerfile exists in the same directory.
 $ docker build -t user/image_name .
 
 # Run specific docker image on port 5000 (according to Dockerifle)
@@ -103,7 +105,7 @@ $ docker push user/image_name
 ```
 
 ```bash
-# Log in to your docker hub accou$ docker login
+# Log in to your docker hub account (it will ask for your username and password)
 $ docker login
 ```
 
@@ -114,5 +116,5 @@ $ docker search elasticsearch
 
 ```bash
 # List all networks
-$ docker network ls 
+$ docker network ls
 ```
