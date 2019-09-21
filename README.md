@@ -68,7 +68,7 @@ This repo will list down ideas, concepts and code snippets of different programm
 
 ### Mac
 
-* [Forcing name changes to lowercase or capitalize on a Mac system](mac/forcing-name-changes-to-lowercase-or-capitalize-on-mac.md)
+* [Force git to recognize a file name change to lowercase or capitalize on a Mac system](mac/force-git-to-recognize-a-file-name-change-to-lowercase-or-capitalize-on-a-mac.md)
 
 
 ### Node
