@@ -14,6 +14,7 @@ This repo will list down ideas, concepts and code snippets of different programm
 * [Elasticsearch](#elasticsearch)
 * [Frameworks](#frameworks)
 * [Git](#git)
+* [Heroku](#heroku)
 * [JavaScript](#javascript)
 * [Linux](#linux)
 * [Mac](#mac)
@@ -59,7 +60,7 @@ This repo will list down ideas, concepts and code snippets of different programm
 
 ### Heroku
 
-* [Heroku CLI Cheatshee](heroku/heroku-cli-cheatsheet.md)
+* [Heroku CLI Cheatsheet](heroku/heroku-cli-cheatsheet.md)
 
 
 ### JavaScript
