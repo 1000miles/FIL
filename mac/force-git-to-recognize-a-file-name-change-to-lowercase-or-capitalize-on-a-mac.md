@@ -44,7 +44,7 @@ This so far looks pretty neat and does what we want. However, sometimes we need 
 
 ### Git > Heroku Deployment
 
-For example we originally named our module `./models/employee.js` instead of `./models/Employee.js`. In nodejs (and other programming languages) models are named in capital letters by convention which is why heroku couldn't find our model. Even though the deployment was successful we still faced an application error so that the website didn't show up on heroku. Once we noticed that we renamed the file to `./models/Employee.js` on our local machine and the file name looked as it should be. We then pushed the change to Github and merged to trigger a new automatic deployment to heroku. For strange reasons we still got the same error.
+For example we originally named our model `./models/employee.js` instead of `./models/Employee.js`. In nodejs (and other programming languages) models are named start with a capital letter by convention which is why heroku couldn't find our model because required the model as capitalized. Even though the deployment was successful we still faced an application error so that the website didn't show up on heroku. Once we noticed that we renamed the file to `./models/Employee.js` on our local machine and the file name looked as it should be. We then pushed the change to Github and merged to trigger a new automatic deployment to heroku. For strange reasons we still got the same error.
 
 To dive deeper into the error we ran:
 
@@ -75,8 +75,7 @@ Since git still has the old version tracked we needed a way to trigger a change 
 $ git mv -f models/employee.js models/Employee.js
 ```
 
-Awesome! That worked and heroku deployed now a working version for the website.
-
+Awesome! That worked means Github accepted our change and heroku deployed now a working version for the website.
 
 
 
